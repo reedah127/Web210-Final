@@ -1,0 +1,154 @@
+@import 'variables';
+@import 'vendor/bootstrap/bootstrap';
+
+.navbar{
+    background: #C0E474;
+}
+
+h3{
+  margin: 5rem 2rem 2rem 2rem;
+}
+
+p{
+  margin: 2rem 2rem 2rem 2rem;
+}
+
+#carouselSlides{
+  position: relative;
+}
+
+.carousel-item{
+  filter: blur(2px);
+  
+}
+
+.header{
+  background-color: rgba(0,0,0, 0.4); 
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo{
+  height: 8rem;
+  width: auto;
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.btn{
+  background-color: #C0E474;
+  color: #404040;
+  border-color: #577A41;
+}
+
+.btn:hover{
+  background-color: #577A41;
+  color: white;
+}
+
+.containerAnnouncement{
+  margin: 1rem;
+  color: red;
+  background-color: white;
+  border: red;
+}
+
+.footer{
+  background-color: #C0E474;
+  padding: 4rem;
+}
+
+.footerLog0{
+  height: 8rem;
+  width: auto;
+}
+
+.accordion{
+  margin: 2rem;
+  background-color: white;
+}
+
+.accordion-button:hover{
+  background-color: #C0E474;
+}
+
+
+.card{
+  margin: 2rem;
+}
+
+.alert{
+  margin: 0rem 0rem 3rem 0rem;
+}
+
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #C0E474;
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: #404040;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color:#ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #C0E474;
+  color: #404040 !important
+}
+
+.form{
+  margin: 3rem;
+}
+
+.list-group{
+  margin: 3rem;
+}
